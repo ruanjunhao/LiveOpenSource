@@ -27,9 +27,9 @@
 //    imageV.image = [UIImage boxblurImage:image withBlurNumber:0.5];
     //深色
 //    imageV.image = [image imageByBlurDark];
-    imageV.image = [image imageByBlurSoft];
+//    imageV.image = [image imageByBlurSoft];
 //    imageV.image = [image imageByBlurLight];
-//    imageV.image = [image imageByBlurWithTint:[UIColor grayColor]];
+    imageV.image = [image imageByBlurWithTint:[UIColor lightGrayColor]];
     imageV.frame = self.view.bounds;
     [self.view addSubview:imageV];
     
