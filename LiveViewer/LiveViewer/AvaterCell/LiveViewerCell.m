@@ -7,10 +7,13 @@
 //
 
 #import "LiveViewerCell.h"
+#import "ArtImageView.h"
+
 
 @interface LiveViewerCell ()
 
-@property (nonatomic,strong) UIImageView *avaterIconImage;
+@property (nonatomic,strong) ArtImageView *avaterIcon;
+
 
 @end
 
@@ -20,12 +23,24 @@
 {
     if (self = [super initWithFrame:frame]) {
         
-//        self.avaterIconImage = [UIImageView alloc] initWithFrame:<#(CGRect)#>
-        
-        
+        self.avaterIcon = [[ArtImageView alloc] init];
+        [self.contentView addSubview:self.avaterIcon];
+        [self.avaterIcon mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.edges.equalTo(self);
+        }];
+
     }
     
     return self;
 }
+
+- (void)setAvaterImageURL:(NSString *)aImageURL
+{
+    [self.avaterIcon setCornerImageURL:[aImageURL stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];
+}
+
+
+
+
 
 @end

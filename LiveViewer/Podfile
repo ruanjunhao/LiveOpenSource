@@ -6,4 +6,6 @@ platform :ios, '7.0'
 target ‘LiveViewer’ do
 pod 'YYWebImage', '~> 1.0.3'
 pod 'YYImage/WebP'
+pod "Masonry","1.0.1"
+
 end

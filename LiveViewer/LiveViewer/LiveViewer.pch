@@ -1,0 +1,18 @@
+//
+//  LiveViewer.pch
+//  LiveViewer
+//
+//  Created by LeeWong on 16/6/24.
+//  Copyright © 2016年 LeeWong. All rights reserved.
+//
+
+#ifndef LiveViewer_pch
+#define LiveViewer_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <Masonry.h>
+#define WEAKSELF(weakSelf)  __weak __typeof(&*self)weakSelf = self;
+
+#endif /* LiveViewer_pch */

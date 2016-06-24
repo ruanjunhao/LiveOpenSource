@@ -10,4 +10,7 @@
 
 @interface LiveViewerCell : UICollectionViewCell
 
+- (void)setAvaterImageURL:(NSString *)aImageURL;
+
+
 @end
