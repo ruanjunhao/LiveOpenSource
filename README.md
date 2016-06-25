@@ -19,3 +19,8 @@
 ![](https://i.niupic.com/images/2016/06/22/UFD9aX.png)
 
 
+##### 2、聊天室观众列表
+![观众列表](https://i.niupic.com/images/2016/06/24/k8VjCj.gif)
+
+
+

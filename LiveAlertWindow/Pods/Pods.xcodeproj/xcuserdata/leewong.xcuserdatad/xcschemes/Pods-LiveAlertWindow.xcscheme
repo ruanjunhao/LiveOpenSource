@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'DCEDA73FC69D6ADEB236F015'
+               BlueprintIdentifier = '59C0811684A027BF17EE24BB'
                BlueprintName = 'Pods-LiveAlertWindow'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-LiveAlertWindow.a'>

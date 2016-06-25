@@ -64,6 +64,7 @@
 		EBF88AFF1D1D0284006E46CD /* LiveViewer.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveViewer.pch; sourceTree = "<group>"; };
 		EBF88B031D1D07A1006E46CD /* ArtImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtImageView.h; sourceTree = "<group>"; };
 		EBF88B041D1D07A1006E46CD /* ArtImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtImageView.m; sourceTree = "<group>"; };
+		EBF88B521D1E260A006E46CD /* LiveDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveDefine.h; sourceTree = "<group>"; };
 		FA9E8B47C79934659D9FEEEC /* Pods-LiveViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveViewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LiveViewer/Pods-LiveViewer.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -185,6 +186,7 @@
 				EB269A811D1BA72200A282B1 /* LiveViewerCell.m */,
 				EB269A861D1BB71500A282B1 /* LiveViewerViewController.h */,
 				EB269A871D1BB71500A282B1 /* LiveViewerViewController.m */,
+				EBF88B521D1E260A006E46CD /* LiveDefine.h */,
 			);
 			path = AvaterCell;
 			sourceTree = "<group>";

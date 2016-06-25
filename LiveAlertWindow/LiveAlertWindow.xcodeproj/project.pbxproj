@@ -1,1223 +1,635 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>1455F15F74FEE2F210828DC8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-LiveAlertWindow.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-LiveAlertWindow/Pods-LiveAlertWindow.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>72213E7961773C1CF7DFB09D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>780F969DED717D43D6C52333</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>780F969DED717D43D6C52333</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-LiveAlertWindow.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>A1E8C3C8D1E0E8E263F68CD4</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-LiveAlertWindow/Pods-LiveAlertWindow-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>ACFF74D6625C43F2AC1D2E53</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>AD6ED4979CEF816452D1C3E5</string>
-				<string>1455F15F74FEE2F210828DC8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AD6ED4979CEF816452D1C3E5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-LiveAlertWindow.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-LiveAlertWindow/Pods-LiveAlertWindow.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CE273149466C903762B9C922</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>D3A523B27C636E24A3A927B1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>780F969DED717D43D6C52333</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E78B713206B67AF0697DB90C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-LiveAlertWindow/Pods-LiveAlertWindow-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>EBF88B0C1D1D4B1B006E46CD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EBF88B171D1D4B1B006E46CD</string>
-				<string>EBF88B311D1D4B1B006E46CD</string>
-				<string>EBF88B3C1D1D4B1B006E46CD</string>
-				<string>EBF88B161D1D4B1B006E46CD</string>
-				<string>ACFF74D6625C43F2AC1D2E53</string>
-				<string>72213E7961773C1CF7DFB09D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EBF88B0D1D1D4B1B006E46CD</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0730</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>LeeWong</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>EBF88B141D1D4B1B006E46CD</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.3</string>
-					</dict>
-					<key>EBF88B2D1D1D4B1B006E46CD</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.3</string>
-						<key>TestTargetID</key>
-						<string>EBF88B141D1D4B1B006E46CD</string>
-					</dict>
-					<key>EBF88B381D1D4B1B006E46CD</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.3</string>
-						<key>TestTargetID</key>
-						<string>EBF88B141D1D4B1B006E46CD</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>EBF88B101D1D4B1B006E46CD</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>EBF88B0C1D1D4B1B006E46CD</string>
-			<key>productRefGroup</key>
-			<string>EBF88B161D1D4B1B006E46CD</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>EBF88B141D1D4B1B006E46CD</string>
-				<string>EBF88B2D1D1D4B1B006E46CD</string>
-				<string>EBF88B381D1D4B1B006E46CD</string>
-			</array>
-		</dict>
-		<key>EBF88B101D1D4B1B006E46CD</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>EBF88B401D1D4B1B006E46CD</string>
-				<string>EBF88B411D1D4B1B006E46CD</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>EBF88B111D1D4B1B006E46CD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>EBF88B4E1D1D4B5C006E46CD</string>
-				<string>EBF88B201D1D4B1B006E46CD</string>
-				<string>EBF88B1D1D1D4B1B006E46CD</string>
-				<string>EBF88B1A1D1D4B1B006E46CD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>EBF88B121D1D4B1B006E46CD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D3A523B27C636E24A3A927B1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>EBF88B131D1D4B1B006E46CD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>EBF88B281D1D4B1B006E46CD</string>
-				<string>EBF88B251D1D4B1B006E46CD</string>
-				<string>EBF88B231D1D4B1B006E46CD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>EBF88B141D1D4B1B006E46CD</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>EBF88B421D1D4B1B006E46CD</string>
-			<key>buildPhases</key>
-			<array>
-				<string>CE273149466C903762B9C922</string>
-				<string>EBF88B111D1D4B1B006E46CD</string>
-				<string>EBF88B121D1D4B1B006E46CD</string>
-				<string>EBF88B131D1D4B1B006E46CD</string>
-				<string>A1E8C3C8D1E0E8E263F68CD4</string>
-				<string>E78B713206B67AF0697DB90C</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>LiveAlertWindow</string>
-			<key>productName</key>
-			<string>LiveAlertWindow</string>
-			<key>productReference</key>
-			<string>EBF88B151D1D4B1B006E46CD</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>EBF88B151D1D4B1B006E46CD</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>LiveAlertWindow.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>EBF88B161D1D4B1B006E46CD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EBF88B151D1D4B1B006E46CD</string>
-				<string>EBF88B2E1D1D4B1B006E46CD</string>
-				<string>EBF88B391D1D4B1B006E46CD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EBF88B171D1D4B1B006E46CD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EBF88B4B1D1D4B48006E46CD</string>
-				<string>EBF88B1B1D1D4B1B006E46CD</string>
-				<string>EBF88B1C1D1D4B1B006E46CD</string>
-				<string>EBF88B1E1D1D4B1B006E46CD</string>
-				<string>EBF88B1F1D1D4B1B006E46CD</string>
-				<string>EBF88B211D1D4B1B006E46CD</string>
-				<string>EBF88B241D1D4B1B006E46CD</string>
-				<string>EBF88B261D1D4B1B006E46CD</string>
-				<string>EBF88B291D1D4B1B006E46CD</string>
-				<string>EBF88B181D1D4B1B006E46CD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>LiveAlertWindow</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EBF88B181D1D4B1B006E46CD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EBF88B191D1D4B1B006E46CD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EBF88B191D1D4B1B006E46CD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EBF88B1A1D1D4B1B006E46CD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EBF88B191D1D4B1B006E46CD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EBF88B1B1D1D4B1B006E46CD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EBF88B1C1D1D4B1B006E46CD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>AppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EBF88B1D1D1D4B1B006E46CD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EBF88B1C1D1D4B1B006E46CD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EBF88B1E1D1D4B1B006E46CD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>ViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EBF88B1F1D1D4B1B006E46CD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>ViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EBF88B201D1D4B1B006E46CD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EBF88B1F1D1D4B1B006E46CD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EBF88B211D1D4B1B006E46CD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EBF88B221D1D4B1B006E46CD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EBF88B221D1D4B1B006E46CD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EBF88B231D1D4B1B006E46CD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EBF88B211D1D4B1B006E46CD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EBF88B241D1D4B1B006E46CD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Assets.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EBF88B251D1D4B1B006E46CD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EBF88B241D1D4B1B006E46CD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EBF88B261D1D4B1B006E46CD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EBF88B271D1D4B1B006E46CD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EBF88B271D1D4B1B006E46CD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EBF88B281D1D4B1B006E46CD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EBF88B261D1D4B1B006E46CD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EBF88B291D1D4B1B006E46CD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EBF88B2A1D1D4B1B006E46CD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>EBF88B331D1D4B1B006E46CD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>EBF88B2B1D1D4B1B006E46CD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>EBF88B2C1D1D4B1B006E46CD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>EBF88B2D1D1D4B1B006E46CD</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>EBF88B451D1D4B1B006E46CD</string>
-			<key>buildPhases</key>
-			<array>
-				<string>EBF88B2A1D1D4B1B006E46CD</string>
-				<string>EBF88B2B1D1D4B1B006E46CD</string>
-				<string>EBF88B2C1D1D4B1B006E46CD</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>EBF88B301D1D4B1B006E46CD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>LiveAlertWindowTests</string>
-			<key>productName</key>
-			<string>LiveAlertWindowTests</string>
-			<key>productReference</key>
-			<string>EBF88B2E1D1D4B1B006E46CD</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>EBF88B2E1D1D4B1B006E46CD</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>LiveAlertWindowTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>EBF88B2F1D1D4B1B006E46CD</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>EBF88B0D1D1D4B1B006E46CD</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>EBF88B141D1D4B1B006E46CD</string>
-			<key>remoteInfo</key>
-			<string>LiveAlertWindow</string>
-		</dict>
-		<key>EBF88B301D1D4B1B006E46CD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>EBF88B141D1D4B1B006E46CD</string>
-			<key>targetProxy</key>
-			<string>EBF88B2F1D1D4B1B006E46CD</string>
-		</dict>
-		<key>EBF88B311D1D4B1B006E46CD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EBF88B321D1D4B1B006E46CD</string>
-				<string>EBF88B341D1D4B1B006E46CD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>LiveAlertWindowTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EBF88B321D1D4B1B006E46CD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>LiveAlertWindowTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EBF88B331D1D4B1B006E46CD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EBF88B321D1D4B1B006E46CD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EBF88B341D1D4B1B006E46CD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EBF88B351D1D4B1B006E46CD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>EBF88B3E1D1D4B1B006E46CD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>EBF88B361D1D4B1B006E46CD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>EBF88B371D1D4B1B006E46CD</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>EBF88B381D1D4B1B006E46CD</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>EBF88B481D1D4B1B006E46CD</string>
-			<key>buildPhases</key>
-			<array>
-				<string>EBF88B351D1D4B1B006E46CD</string>
-				<string>EBF88B361D1D4B1B006E46CD</string>
-				<string>EBF88B371D1D4B1B006E46CD</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>EBF88B3B1D1D4B1B006E46CD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>LiveAlertWindowUITests</string>
-			<key>productName</key>
-			<string>LiveAlertWindowUITests</string>
-			<key>productReference</key>
-			<string>EBF88B391D1D4B1B006E46CD</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.ui-testing</string>
-		</dict>
-		<key>EBF88B391D1D4B1B006E46CD</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>LiveAlertWindowUITests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>EBF88B3A1D1D4B1B006E46CD</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>EBF88B0D1D1D4B1B006E46CD</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>EBF88B141D1D4B1B006E46CD</string>
-			<key>remoteInfo</key>
-			<string>LiveAlertWindow</string>
-		</dict>
-		<key>EBF88B3B1D1D4B1B006E46CD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>EBF88B141D1D4B1B006E46CD</string>
-			<key>targetProxy</key>
-			<string>EBF88B3A1D1D4B1B006E46CD</string>
-		</dict>
-		<key>EBF88B3C1D1D4B1B006E46CD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EBF88B3D1D1D4B1B006E46CD</string>
-				<string>EBF88B3F1D1D4B1B006E46CD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>LiveAlertWindowUITests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EBF88B3D1D1D4B1B006E46CD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>LiveAlertWindowUITests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EBF88B3E1D1D4B1B006E46CD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EBF88B3D1D1D4B1B006E46CD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EBF88B3F1D1D4B1B006E46CD</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EBF88B401D1D4B1B006E46CD</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>ENABLE_TESTABILITY</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>EBF88B411D1D4B1B006E46CD</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>EBF88B421D1D4B1B006E46CD</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>EBF88B431D1D4B1B006E46CD</string>
-				<string>EBF88B441D1D4B1B006E46CD</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>EBF88B431D1D4B1B006E46CD</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>AD6ED4979CEF816452D1C3E5</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>INFOPLIST_FILE</key>
-				<string>LiveAlertWindow/Info.plist</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.msb.LiveAlertWindow</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>EBF88B441D1D4B1B006E46CD</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>1455F15F74FEE2F210828DC8</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>INFOPLIST_FILE</key>
-				<string>LiveAlertWindow/Info.plist</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.msb.LiveAlertWindow</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>EBF88B451D1D4B1B006E46CD</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>EBF88B461D1D4B1B006E46CD</string>
-				<string>EBF88B471D1D4B1B006E46CD</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>EBF88B461D1D4B1B006E46CD</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>INFOPLIST_FILE</key>
-				<string>LiveAlertWindowTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.msb.LiveAlertWindowTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/LiveAlertWindow.app/LiveAlertWindow</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>EBF88B471D1D4B1B006E46CD</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>INFOPLIST_FILE</key>
-				<string>LiveAlertWindowTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.msb.LiveAlertWindowTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/LiveAlertWindow.app/LiveAlertWindow</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>EBF88B481D1D4B1B006E46CD</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>EBF88B491D1D4B1B006E46CD</string>
-				<string>EBF88B4A1D1D4B1B006E46CD</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>EBF88B491D1D4B1B006E46CD</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>INFOPLIST_FILE</key>
-				<string>LiveAlertWindowUITests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.msb.LiveAlertWindowUITests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_TARGET_NAME</key>
-				<string>LiveAlertWindow</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>EBF88B4A1D1D4B1B006E46CD</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>INFOPLIST_FILE</key>
-				<string>LiveAlertWindowUITests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.msb.LiveAlertWindowUITests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_TARGET_NAME</key>
-				<string>LiveAlertWindow</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>EBF88B4B1D1D4B48006E46CD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>EBF88B4C1D1D4B5C006E46CD</string>
-				<string>EBF88B4D1D1D4B5C006E46CD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>AlertWindow</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EBF88B4C1D1D4B5C006E46CD</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>AlertWindow.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EBF88B4D1D1D4B5C006E46CD</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>AlertWindow.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EBF88B4E1D1D4B5C006E46CD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EBF88B4D1D1D4B5C006E46CD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>EBF88B0D1D1D4B1B006E46CD</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3A523B27C636E24A3A927B1 /* libPods-LiveAlertWindow.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 780F969DED717D43D6C52333 /* libPods-LiveAlertWindow.a */; };
+		EBF88B1A1D1D4B1B006E46CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF88B191D1D4B1B006E46CD /* main.m */; };
+		EBF88B1D1D1D4B1B006E46CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF88B1C1D1D4B1B006E46CD /* AppDelegate.m */; };
+		EBF88B201D1D4B1B006E46CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF88B1F1D1D4B1B006E46CD /* ViewController.m */; };
+		EBF88B231D1D4B1B006E46CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF88B211D1D4B1B006E46CD /* Main.storyboard */; };
+		EBF88B251D1D4B1B006E46CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBF88B241D1D4B1B006E46CD /* Assets.xcassets */; };
+		EBF88B281D1D4B1B006E46CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF88B261D1D4B1B006E46CD /* LaunchScreen.storyboard */; };
+		EBF88B331D1D4B1B006E46CD /* LiveAlertWindowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF88B321D1D4B1B006E46CD /* LiveAlertWindowTests.m */; };
+		EBF88B3E1D1D4B1B006E46CD /* LiveAlertWindowUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF88B3D1D1D4B1B006E46CD /* LiveAlertWindowUITests.m */; };
+		EBF88B4E1D1D4B5C006E46CD /* AlertWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF88B4D1D1D4B5C006E46CD /* AlertWindow.m */; };
+		EBF88B511D1D4DEC006E46CD /* ArtImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF88B501D1D4DEC006E46CD /* ArtImageView.m */; };
+		EBF88B581D1E2A41006E46CD /* LiveViewerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF88B541D1E2A41006E46CD /* LiveViewerCell.m */; };
+		EBF88B591D1E2A41006E46CD /* LiveViewerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF88B561D1E2A41006E46CD /* LiveViewerViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBF88B2F1D1D4B1B006E46CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBF88B0D1D1D4B1B006E46CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBF88B141D1D4B1B006E46CD;
+			remoteInfo = LiveAlertWindow;
+		};
+		EBF88B3A1D1D4B1B006E46CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBF88B0D1D1D4B1B006E46CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBF88B141D1D4B1B006E46CD;
+			remoteInfo = LiveAlertWindow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1455F15F74FEE2F210828DC8 /* Pods-LiveAlertWindow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveAlertWindow.release.xcconfig"; path = "Pods/Target Support Files/Pods-LiveAlertWindow/Pods-LiveAlertWindow.release.xcconfig"; sourceTree = "<group>"; };
+		780F969DED717D43D6C52333 /* libPods-LiveAlertWindow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LiveAlertWindow.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD6ED4979CEF816452D1C3E5 /* Pods-LiveAlertWindow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveAlertWindow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LiveAlertWindow/Pods-LiveAlertWindow.debug.xcconfig"; sourceTree = "<group>"; };
+		EBF88B151D1D4B1B006E46CD /* LiveAlertWindow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveAlertWindow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF88B191D1D4B1B006E46CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBF88B1B1D1D4B1B006E46CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EBF88B1C1D1D4B1B006E46CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EBF88B1E1D1D4B1B006E46CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EBF88B1F1D1D4B1B006E46CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EBF88B221D1D4B1B006E46CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBF88B241D1D4B1B006E46CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBF88B271D1D4B1B006E46CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBF88B291D1D4B1B006E46CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBF88B2E1D1D4B1B006E46CD /* LiveAlertWindowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveAlertWindowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF88B321D1D4B1B006E46CD /* LiveAlertWindowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveAlertWindowTests.m; sourceTree = "<group>"; };
+		EBF88B341D1D4B1B006E46CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBF88B391D1D4B1B006E46CD /* LiveAlertWindowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveAlertWindowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF88B3D1D1D4B1B006E46CD /* LiveAlertWindowUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveAlertWindowUITests.m; sourceTree = "<group>"; };
+		EBF88B3F1D1D4B1B006E46CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBF88B4C1D1D4B5C006E46CD /* AlertWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertWindow.h; sourceTree = "<group>"; };
+		EBF88B4D1D1D4B5C006E46CD /* AlertWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertWindow.m; sourceTree = "<group>"; };
+		EBF88B4F1D1D4DEC006E46CD /* ArtImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtImageView.h; sourceTree = "<group>"; };
+		EBF88B501D1D4DEC006E46CD /* ArtImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtImageView.m; sourceTree = "<group>"; };
+		EBF88B531D1E2A41006E46CD /* LiveViewerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveViewerCell.h; sourceTree = "<group>"; };
+		EBF88B541D1E2A41006E46CD /* LiveViewerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveViewerCell.m; sourceTree = "<group>"; };
+		EBF88B551D1E2A41006E46CD /* LiveViewerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveViewerViewController.h; sourceTree = "<group>"; };
+		EBF88B561D1E2A41006E46CD /* LiveViewerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveViewerViewController.m; sourceTree = "<group>"; };
+		EBF88B571D1E2A41006E46CD /* LiveDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveDefine.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBF88B121D1D4B1B006E46CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3A523B27C636E24A3A927B1 /* libPods-LiveAlertWindow.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF88B2B1D1D4B1B006E46CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF88B361D1D4B1B006E46CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72213E7961773C1CF7DFB09D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				780F969DED717D43D6C52333 /* libPods-LiveAlertWindow.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACFF74D6625C43F2AC1D2E53 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD6ED4979CEF816452D1C3E5 /* Pods-LiveAlertWindow.debug.xcconfig */,
+				1455F15F74FEE2F210828DC8 /* Pods-LiveAlertWindow.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EBF88B0C1D1D4B1B006E46CD = {
+			isa = PBXGroup;
+			children = (
+				EBF88B171D1D4B1B006E46CD /* LiveAlertWindow */,
+				EBF88B311D1D4B1B006E46CD /* LiveAlertWindowTests */,
+				EBF88B3C1D1D4B1B006E46CD /* LiveAlertWindowUITests */,
+				EBF88B161D1D4B1B006E46CD /* Products */,
+				ACFF74D6625C43F2AC1D2E53 /* Pods */,
+				72213E7961773C1CF7DFB09D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EBF88B161D1D4B1B006E46CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBF88B151D1D4B1B006E46CD /* LiveAlertWindow.app */,
+				EBF88B2E1D1D4B1B006E46CD /* LiveAlertWindowTests.xctest */,
+				EBF88B391D1D4B1B006E46CD /* LiveAlertWindowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBF88B171D1D4B1B006E46CD /* LiveAlertWindow */ = {
+			isa = PBXGroup;
+			children = (
+				EBF88B4B1D1D4B48006E46CD /* AlertWindow */,
+				EBF88B1B1D1D4B1B006E46CD /* AppDelegate.h */,
+				EBF88B1C1D1D4B1B006E46CD /* AppDelegate.m */,
+				EBF88B1E1D1D4B1B006E46CD /* ViewController.h */,
+				EBF88B1F1D1D4B1B006E46CD /* ViewController.m */,
+				EBF88B211D1D4B1B006E46CD /* Main.storyboard */,
+				EBF88B241D1D4B1B006E46CD /* Assets.xcassets */,
+				EBF88B261D1D4B1B006E46CD /* LaunchScreen.storyboard */,
+				EBF88B291D1D4B1B006E46CD /* Info.plist */,
+				EBF88B181D1D4B1B006E46CD /* Supporting Files */,
+			);
+			path = LiveAlertWindow;
+			sourceTree = "<group>";
+		};
+		EBF88B181D1D4B1B006E46CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBF88B191D1D4B1B006E46CD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBF88B311D1D4B1B006E46CD /* LiveAlertWindowTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBF88B321D1D4B1B006E46CD /* LiveAlertWindowTests.m */,
+				EBF88B341D1D4B1B006E46CD /* Info.plist */,
+			);
+			path = LiveAlertWindowTests;
+			sourceTree = "<group>";
+		};
+		EBF88B3C1D1D4B1B006E46CD /* LiveAlertWindowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EBF88B3D1D1D4B1B006E46CD /* LiveAlertWindowUITests.m */,
+				EBF88B3F1D1D4B1B006E46CD /* Info.plist */,
+			);
+			path = LiveAlertWindowUITests;
+			sourceTree = "<group>";
+		};
+		EBF88B4B1D1D4B48006E46CD /* AlertWindow */ = {
+			isa = PBXGroup;
+			children = (
+				EBF88B531D1E2A41006E46CD /* LiveViewerCell.h */,
+				EBF88B541D1E2A41006E46CD /* LiveViewerCell.m */,
+				EBF88B551D1E2A41006E46CD /* LiveViewerViewController.h */,
+				EBF88B561D1E2A41006E46CD /* LiveViewerViewController.m */,
+				EBF88B571D1E2A41006E46CD /* LiveDefine.h */,
+				EBF88B4F1D1D4DEC006E46CD /* ArtImageView.h */,
+				EBF88B501D1D4DEC006E46CD /* ArtImageView.m */,
+				EBF88B4C1D1D4B5C006E46CD /* AlertWindow.h */,
+				EBF88B4D1D1D4B5C006E46CD /* AlertWindow.m */,
+			);
+			path = AlertWindow;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBF88B141D1D4B1B006E46CD /* LiveAlertWindow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBF88B421D1D4B1B006E46CD /* Build configuration list for PBXNativeTarget "LiveAlertWindow" */;
+			buildPhases = (
+				CE273149466C903762B9C922 /* Check Pods Manifest.lock */,
+				EBF88B111D1D4B1B006E46CD /* Sources */,
+				EBF88B121D1D4B1B006E46CD /* Frameworks */,
+				EBF88B131D1D4B1B006E46CD /* Resources */,
+				A1E8C3C8D1E0E8E263F68CD4 /* Embed Pods Frameworks */,
+				E78B713206B67AF0697DB90C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiveAlertWindow;
+			productName = LiveAlertWindow;
+			productReference = EBF88B151D1D4B1B006E46CD /* LiveAlertWindow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBF88B2D1D1D4B1B006E46CD /* LiveAlertWindowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBF88B451D1D4B1B006E46CD /* Build configuration list for PBXNativeTarget "LiveAlertWindowTests" */;
+			buildPhases = (
+				EBF88B2A1D1D4B1B006E46CD /* Sources */,
+				EBF88B2B1D1D4B1B006E46CD /* Frameworks */,
+				EBF88B2C1D1D4B1B006E46CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBF88B301D1D4B1B006E46CD /* PBXTargetDependency */,
+			);
+			name = LiveAlertWindowTests;
+			productName = LiveAlertWindowTests;
+			productReference = EBF88B2E1D1D4B1B006E46CD /* LiveAlertWindowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EBF88B381D1D4B1B006E46CD /* LiveAlertWindowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBF88B481D1D4B1B006E46CD /* Build configuration list for PBXNativeTarget "LiveAlertWindowUITests" */;
+			buildPhases = (
+				EBF88B351D1D4B1B006E46CD /* Sources */,
+				EBF88B361D1D4B1B006E46CD /* Frameworks */,
+				EBF88B371D1D4B1B006E46CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBF88B3B1D1D4B1B006E46CD /* PBXTargetDependency */,
+			);
+			name = LiveAlertWindowUITests;
+			productName = LiveAlertWindowUITests;
+			productReference = EBF88B391D1D4B1B006E46CD /* LiveAlertWindowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBF88B0D1D1D4B1B006E46CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = LeeWong;
+				TargetAttributes = {
+					EBF88B141D1D4B1B006E46CD = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					EBF88B2D1D1D4B1B006E46CD = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EBF88B141D1D4B1B006E46CD;
+					};
+					EBF88B381D1D4B1B006E46CD = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EBF88B141D1D4B1B006E46CD;
+					};
+				};
+			};
+			buildConfigurationList = EBF88B101D1D4B1B006E46CD /* Build configuration list for PBXProject "LiveAlertWindow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBF88B0C1D1D4B1B006E46CD;
+			productRefGroup = EBF88B161D1D4B1B006E46CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBF88B141D1D4B1B006E46CD /* LiveAlertWindow */,
+				EBF88B2D1D1D4B1B006E46CD /* LiveAlertWindowTests */,
+				EBF88B381D1D4B1B006E46CD /* LiveAlertWindowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBF88B131D1D4B1B006E46CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF88B281D1D4B1B006E46CD /* LaunchScreen.storyboard in Resources */,
+				EBF88B251D1D4B1B006E46CD /* Assets.xcassets in Resources */,
+				EBF88B231D1D4B1B006E46CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF88B2C1D1D4B1B006E46CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF88B371D1D4B1B006E46CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A1E8C3C8D1E0E8E263F68CD4 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LiveAlertWindow/Pods-LiveAlertWindow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE273149466C903762B9C922 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E78B713206B67AF0697DB90C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LiveAlertWindow/Pods-LiveAlertWindow-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBF88B111D1D4B1B006E46CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF88B591D1E2A41006E46CD /* LiveViewerViewController.m in Sources */,
+				EBF88B4E1D1D4B5C006E46CD /* AlertWindow.m in Sources */,
+				EBF88B581D1E2A41006E46CD /* LiveViewerCell.m in Sources */,
+				EBF88B201D1D4B1B006E46CD /* ViewController.m in Sources */,
+				EBF88B511D1D4DEC006E46CD /* ArtImageView.m in Sources */,
+				EBF88B1D1D1D4B1B006E46CD /* AppDelegate.m in Sources */,
+				EBF88B1A1D1D4B1B006E46CD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF88B2A1D1D4B1B006E46CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF88B331D1D4B1B006E46CD /* LiveAlertWindowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF88B351D1D4B1B006E46CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF88B3E1D1D4B1B006E46CD /* LiveAlertWindowUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBF88B301D1D4B1B006E46CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBF88B141D1D4B1B006E46CD /* LiveAlertWindow */;
+			targetProxy = EBF88B2F1D1D4B1B006E46CD /* PBXContainerItemProxy */;
+		};
+		EBF88B3B1D1D4B1B006E46CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBF88B141D1D4B1B006E46CD /* LiveAlertWindow */;
+			targetProxy = EBF88B3A1D1D4B1B006E46CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBF88B211D1D4B1B006E46CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBF88B221D1D4B1B006E46CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBF88B261D1D4B1B006E46CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBF88B271D1D4B1B006E46CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBF88B401D1D4B1B006E46CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EBF88B411D1D4B1B006E46CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBF88B431D1D4B1B006E46CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD6ED4979CEF816452D1C3E5 /* Pods-LiveAlertWindow.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LiveAlertWindow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.msb.LiveAlertWindow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EBF88B441D1D4B1B006E46CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1455F15F74FEE2F210828DC8 /* Pods-LiveAlertWindow.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LiveAlertWindow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.msb.LiveAlertWindow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EBF88B461D1D4B1B006E46CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LiveAlertWindowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.msb.LiveAlertWindowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiveAlertWindow.app/LiveAlertWindow";
+			};
+			name = Debug;
+		};
+		EBF88B471D1D4B1B006E46CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LiveAlertWindowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.msb.LiveAlertWindowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiveAlertWindow.app/LiveAlertWindow";
+			};
+			name = Release;
+		};
+		EBF88B491D1D4B1B006E46CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LiveAlertWindowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.msb.LiveAlertWindowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LiveAlertWindow;
+			};
+			name = Debug;
+		};
+		EBF88B4A1D1D4B1B006E46CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LiveAlertWindowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.msb.LiveAlertWindowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LiveAlertWindow;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBF88B101D1D4B1B006E46CD /* Build configuration list for PBXProject "LiveAlertWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF88B401D1D4B1B006E46CD /* Debug */,
+				EBF88B411D1D4B1B006E46CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBF88B421D1D4B1B006E46CD /* Build configuration list for PBXNativeTarget "LiveAlertWindow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF88B431D1D4B1B006E46CD /* Debug */,
+				EBF88B441D1D4B1B006E46CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBF88B451D1D4B1B006E46CD /* Build configuration list for PBXNativeTarget "LiveAlertWindowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF88B461D1D4B1B006E46CD /* Debug */,
+				EBF88B471D1D4B1B006E46CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBF88B481D1D4B1B006E46CD /* Build configuration list for PBXNativeTarget "LiveAlertWindowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF88B491D1D4B1B006E46CD /* Debug */,
+				EBF88B4A1D1D4B1B006E46CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBF88B0D1D1D4B1B006E46CD /* Project object */;
+}
