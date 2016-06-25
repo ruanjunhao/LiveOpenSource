@@ -22,5 +22,7 @@
 ##### 2、聊天室观众列表
 ![观众列表](https://i.niupic.com/images/2016/06/24/k8VjCj.gif)
 
+##### 3、观众弹窗主页
 
+![主页弹窗](https://i.niupic.com/images/2016/06/25/gvpK2q.png)
 
