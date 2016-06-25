@@ -9,13 +9,13 @@
 #define SCREEN_W [UIScreen mainScreen].bounds.size.width
 #define SCREEN_H [UIScreen mainScreen].bounds.size.height
 
-#import "LiveViewerViewController.h"
+#import "LiveViewerView.h"
 #import "LiveViewerCell.h"
 
 
 static NSString *const CollectionViewCellIdentifier = @"cell";
 
-@interface LiveViewerViewController () <UICollectionViewDelegate,UICollectionViewDataSource>
+@interface LiveViewerView () <UICollectionViewDelegate,UICollectionViewDataSource>
 
 @property (nonatomic,strong) UICollectionView *collectionView;
 
@@ -25,7 +25,7 @@ static NSString *const CollectionViewCellIdentifier = @"cell";
 
 @end
 
-@implementation LiveViewerViewController
+@implementation LiveViewerView
 
 
 - (instancetype)initWithCellType:(EArtCollectionViewCellType)aType
@@ -41,7 +41,7 @@ static NSString *const CollectionViewCellIdentifier = @"cell";
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];
-    layout.itemSize = CGSizeMake(50,50);
+    layout.itemSize = self.itemSize;
     layout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
     layout.minimumInteritemSpacing = 2;
     layout.minimumLineSpacing = 2;

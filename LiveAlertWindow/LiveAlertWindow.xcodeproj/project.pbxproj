@@ -19,7 +19,7 @@
 		EBF88B4E1D1D4B5C006E46CD /* AlertWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF88B4D1D1D4B5C006E46CD /* AlertWindow.m */; };
 		EBF88B511D1D4DEC006E46CD /* ArtImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF88B501D1D4DEC006E46CD /* ArtImageView.m */; };
 		EBF88B581D1E2A41006E46CD /* LiveViewerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF88B541D1E2A41006E46CD /* LiveViewerCell.m */; };
-		EBF88B591D1E2A41006E46CD /* LiveViewerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF88B561D1E2A41006E46CD /* LiveViewerViewController.m */; };
+		EBF88B591D1E2A41006E46CD /* LiveViewerView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF88B561D1E2A41006E46CD /* LiveViewerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,9 +65,10 @@
 		EBF88B501D1D4DEC006E46CD /* ArtImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtImageView.m; sourceTree = "<group>"; };
 		EBF88B531D1E2A41006E46CD /* LiveViewerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveViewerCell.h; sourceTree = "<group>"; };
 		EBF88B541D1E2A41006E46CD /* LiveViewerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveViewerCell.m; sourceTree = "<group>"; };
-		EBF88B551D1E2A41006E46CD /* LiveViewerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveViewerViewController.h; sourceTree = "<group>"; };
-		EBF88B561D1E2A41006E46CD /* LiveViewerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveViewerViewController.m; sourceTree = "<group>"; };
+		EBF88B551D1E2A41006E46CD /* LiveViewerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveViewerView.h; sourceTree = "<group>"; };
+		EBF88B561D1E2A41006E46CD /* LiveViewerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveViewerView.m; sourceTree = "<group>"; };
 		EBF88B571D1E2A41006E46CD /* LiveDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveDefine.h; sourceTree = "<group>"; };
+		EBF88B5A1D1E2BBB006E46CD /* LiveAlert-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LiveAlert-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				EBF88B191D1D4B1B006E46CD /* main.m */,
+				EBF88B5A1D1E2BBB006E46CD /* LiveAlert-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -183,8 +185,8 @@
 			children = (
 				EBF88B531D1E2A41006E46CD /* LiveViewerCell.h */,
 				EBF88B541D1E2A41006E46CD /* LiveViewerCell.m */,
-				EBF88B551D1E2A41006E46CD /* LiveViewerViewController.h */,
-				EBF88B561D1E2A41006E46CD /* LiveViewerViewController.m */,
+				EBF88B551D1E2A41006E46CD /* LiveViewerView.h */,
+				EBF88B561D1E2A41006E46CD /* LiveViewerView.m */,
 				EBF88B571D1E2A41006E46CD /* LiveDefine.h */,
 				EBF88B4F1D1D4DEC006E46CD /* ArtImageView.h */,
 				EBF88B501D1D4DEC006E46CD /* ArtImageView.m */,
@@ -375,7 +377,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBF88B591D1E2A41006E46CD /* LiveViewerViewController.m in Sources */,
+				EBF88B591D1E2A41006E46CD /* LiveViewerView.m in Sources */,
 				EBF88B4E1D1D4B5C006E46CD /* AlertWindow.m in Sources */,
 				EBF88B581D1E2A41006E46CD /* LiveViewerCell.m in Sources */,
 				EBF88B201D1D4B1B006E46CD /* ViewController.m in Sources */,
@@ -523,6 +525,7 @@
 			baseConfigurationReference = AD6ED4979CEF816452D1C3E5 /* Pods-LiveAlertWindow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "LiveAlertWindow/LiveAlert-Prefix.pch";
 				INFOPLIST_FILE = LiveAlertWindow/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -536,6 +539,7 @@
 			baseConfigurationReference = 1455F15F74FEE2F210828DC8 /* Pods-LiveAlertWindow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "LiveAlertWindow/LiveAlert-Prefix.pch";
 				INFOPLIST_FILE = LiveAlertWindow/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

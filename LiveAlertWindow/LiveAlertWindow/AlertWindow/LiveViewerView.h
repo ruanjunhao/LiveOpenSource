@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "LiveDefine.h"
-@interface LiveViewerViewController : UIViewController
+@interface LiveViewerView : UIViewController
 
 - (instancetype)initWithCellType:(EArtCollectionViewCellType)aType;
 
+@property (nonatomic,assign) CGSize itemSize;
 @end

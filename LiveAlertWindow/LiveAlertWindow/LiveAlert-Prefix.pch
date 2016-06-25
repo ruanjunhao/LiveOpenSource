@@ -1,0 +1,15 @@
+//
+//  LiveAlert-Prefix.pch
+//  LiveAlertWindow
+//
+//  Created by LeeWong on 16/6/25.
+//  Copyright © 2016年 LeeWong. All rights reserved.
+//
+
+#ifndef LiveAlert_Prefix_pch
+#define LiveAlert_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "Masonry.h"
+#endif /* LiveAlert_Prefix_pch */

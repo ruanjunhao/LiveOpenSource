@@ -9,7 +9,6 @@
 #import "LiveViewerCell.h"
 #import "ArtImageView.h"
 
-
 @interface LiveViewerCell ()
 
 @property (nonatomic,strong) ArtImageView *avaterIcon;
