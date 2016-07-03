@@ -26,3 +26,6 @@
 
 ![主页弹窗](https://i.niupic.com/images/2016/06/25/gvpK2q.png)
 
+
+#### 4、点赞效果
+![点赞](https://i.niupic.com/images/2016/07/03/lET2rN.gif)
