@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B28B53A4059E37796DA4A12E /* libPods-ArtLiveDatePicker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE65812EA44D8747F2B84F48 /* libPods-ArtLiveDatePicker.a */; };
+		EBCE3E561D34D173009372A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCE3E551D34D173009372A3 /* main.m */; };
+		EBCE3E591D34D173009372A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCE3E581D34D173009372A3 /* AppDelegate.m */; };
+		EBCE3E5C1D34D173009372A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCE3E5B1D34D173009372A3 /* ViewController.m */; };
+		EBCE3E5F1D34D173009372A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBCE3E5D1D34D173009372A3 /* Main.storyboard */; };
+		EBCE3E611D34D173009372A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBCE3E601D34D173009372A3 /* Assets.xcassets */; };
+		EBCE3E641D34D173009372A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBCE3E621D34D173009372A3 /* LaunchScreen.storyboard */; };
+		EBCE3E6F1D34D173009372A3 /* ArtLiveDatePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCE3E6E1D34D173009372A3 /* ArtLiveDatePickerTests.m */; };
+		EBCE3E7A1D34D173009372A3 /* ArtLiveDatePickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCE3E791D34D173009372A3 /* ArtLiveDatePickerUITests.m */; };
+		EBCE3E8A1D34D1AE009372A3 /* ArtLiveDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCE3E891D34D1AE009372A3 /* ArtLiveDatePicker.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBCE3E6B1D34D173009372A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBCE3E491D34D173009372A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBCE3E501D34D173009372A3;
+			remoteInfo = ArtLiveDatePicker;
+		};
+		EBCE3E761D34D173009372A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBCE3E491D34D173009372A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBCE3E501D34D173009372A3;
+			remoteInfo = ArtLiveDatePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		091FD012A5C4DCEB4DB74E01 /* Pods-ArtLiveDatePicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtLiveDatePicker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArtLiveDatePicker/Pods-ArtLiveDatePicker.debug.xcconfig"; sourceTree = "<group>"; };
+		522FF513A7949C334534281A /* Pods-ArtLiveDatePicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtLiveDatePicker.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArtLiveDatePicker/Pods-ArtLiveDatePicker.release.xcconfig"; sourceTree = "<group>"; };
+		EBCE3E511D34D173009372A3 /* ArtLiveDatePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtLiveDatePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBCE3E551D34D173009372A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBCE3E571D34D173009372A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EBCE3E581D34D173009372A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EBCE3E5A1D34D173009372A3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EBCE3E5B1D34D173009372A3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EBCE3E5E1D34D173009372A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBCE3E601D34D173009372A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBCE3E631D34D173009372A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBCE3E651D34D173009372A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBCE3E6A1D34D173009372A3 /* ArtLiveDatePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArtLiveDatePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBCE3E6E1D34D173009372A3 /* ArtLiveDatePickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArtLiveDatePickerTests.m; sourceTree = "<group>"; };
+		EBCE3E701D34D173009372A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBCE3E751D34D173009372A3 /* ArtLiveDatePickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArtLiveDatePickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBCE3E791D34D173009372A3 /* ArtLiveDatePickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArtLiveDatePickerUITests.m; sourceTree = "<group>"; };
+		EBCE3E7B1D34D173009372A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBCE3E881D34D1AE009372A3 /* ArtLiveDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArtLiveDatePicker.h; sourceTree = "<group>"; };
+		EBCE3E891D34D1AE009372A3 /* ArtLiveDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtLiveDatePicker.m; sourceTree = "<group>"; };
+		EBCE3E8B1D34D386009372A3 /* ArtLiveDatePicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ArtLiveDatePicker-Prefix.pch"; sourceTree = "<group>"; };
+		FE65812EA44D8747F2B84F48 /* libPods-ArtLiveDatePicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ArtLiveDatePicker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBCE3E4E1D34D173009372A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B28B53A4059E37796DA4A12E /* libPods-ArtLiveDatePicker.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBCE3E671D34D173009372A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBCE3E721D34D173009372A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B99220A12E494C29D1EC3CBE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				091FD012A5C4DCEB4DB74E01 /* Pods-ArtLiveDatePicker.debug.xcconfig */,
+				522FF513A7949C334534281A /* Pods-ArtLiveDatePicker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C6513642454D3420DD92A943 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE65812EA44D8747F2B84F48 /* libPods-ArtLiveDatePicker.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBCE3E481D34D173009372A3 = {
+			isa = PBXGroup;
+			children = (
+				EBCE3E531D34D173009372A3 /* ArtLiveDatePicker */,
+				EBCE3E6D1D34D173009372A3 /* ArtLiveDatePickerTests */,
+				EBCE3E781D34D173009372A3 /* ArtLiveDatePickerUITests */,
+				EBCE3E521D34D173009372A3 /* Products */,
+				B99220A12E494C29D1EC3CBE /* Pods */,
+				C6513642454D3420DD92A943 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EBCE3E521D34D173009372A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBCE3E511D34D173009372A3 /* ArtLiveDatePicker.app */,
+				EBCE3E6A1D34D173009372A3 /* ArtLiveDatePickerTests.xctest */,
+				EBCE3E751D34D173009372A3 /* ArtLiveDatePickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBCE3E531D34D173009372A3 /* ArtLiveDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				EBCE3E871D34D183009372A3 /* DatePicker */,
+				EBCE3E571D34D173009372A3 /* AppDelegate.h */,
+				EBCE3E581D34D173009372A3 /* AppDelegate.m */,
+				EBCE3E5A1D34D173009372A3 /* ViewController.h */,
+				EBCE3E5B1D34D173009372A3 /* ViewController.m */,
+				EBCE3E5D1D34D173009372A3 /* Main.storyboard */,
+				EBCE3E601D34D173009372A3 /* Assets.xcassets */,
+				EBCE3E621D34D173009372A3 /* LaunchScreen.storyboard */,
+				EBCE3E651D34D173009372A3 /* Info.plist */,
+				EBCE3E541D34D173009372A3 /* Supporting Files */,
+			);
+			path = ArtLiveDatePicker;
+			sourceTree = "<group>";
+		};
+		EBCE3E541D34D173009372A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBCE3E551D34D173009372A3 /* main.m */,
+				EBCE3E8B1D34D386009372A3 /* ArtLiveDatePicker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBCE3E6D1D34D173009372A3 /* ArtLiveDatePickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBCE3E6E1D34D173009372A3 /* ArtLiveDatePickerTests.m */,
+				EBCE3E701D34D173009372A3 /* Info.plist */,
+			);
+			path = ArtLiveDatePickerTests;
+			sourceTree = "<group>";
+		};
+		EBCE3E781D34D173009372A3 /* ArtLiveDatePickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EBCE3E791D34D173009372A3 /* ArtLiveDatePickerUITests.m */,
+				EBCE3E7B1D34D173009372A3 /* Info.plist */,
+			);
+			path = ArtLiveDatePickerUITests;
+			sourceTree = "<group>";
+		};
+		EBCE3E871D34D183009372A3 /* DatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				EBCE3E881D34D1AE009372A3 /* ArtLiveDatePicker.h */,
+				EBCE3E891D34D1AE009372A3 /* ArtLiveDatePicker.m */,
+			);
+			path = DatePicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBCE3E501D34D173009372A3 /* ArtLiveDatePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBCE3E7E1D34D173009372A3 /* Build configuration list for PBXNativeTarget "ArtLiveDatePicker" */;
+			buildPhases = (
+				647BB0F65F8E7E50F218DA9F /* Check Pods Manifest.lock */,
+				EBCE3E4D1D34D173009372A3 /* Sources */,
+				EBCE3E4E1D34D173009372A3 /* Frameworks */,
+				EBCE3E4F1D34D173009372A3 /* Resources */,
+				3062C653D7BDD89776B62DF8 /* Embed Pods Frameworks */,
+				880AD029367A3B1988510405 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArtLiveDatePicker;
+			productName = ArtLiveDatePicker;
+			productReference = EBCE3E511D34D173009372A3 /* ArtLiveDatePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBCE3E691D34D173009372A3 /* ArtLiveDatePickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBCE3E811D34D173009372A3 /* Build configuration list for PBXNativeTarget "ArtLiveDatePickerTests" */;
+			buildPhases = (
+				EBCE3E661D34D173009372A3 /* Sources */,
+				EBCE3E671D34D173009372A3 /* Frameworks */,
+				EBCE3E681D34D173009372A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBCE3E6C1D34D173009372A3 /* PBXTargetDependency */,
+			);
+			name = ArtLiveDatePickerTests;
+			productName = ArtLiveDatePickerTests;
+			productReference = EBCE3E6A1D34D173009372A3 /* ArtLiveDatePickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EBCE3E741D34D173009372A3 /* ArtLiveDatePickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBCE3E841D34D173009372A3 /* Build configuration list for PBXNativeTarget "ArtLiveDatePickerUITests" */;
+			buildPhases = (
+				EBCE3E711D34D173009372A3 /* Sources */,
+				EBCE3E721D34D173009372A3 /* Frameworks */,
+				EBCE3E731D34D173009372A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBCE3E771D34D173009372A3 /* PBXTargetDependency */,
+			);
+			name = ArtLiveDatePickerUITests;
+			productName = ArtLiveDatePickerUITests;
+			productReference = EBCE3E751D34D173009372A3 /* ArtLiveDatePickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBCE3E491D34D173009372A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = LeeWong;
+				TargetAttributes = {
+					EBCE3E501D34D173009372A3 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					EBCE3E691D34D173009372A3 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EBCE3E501D34D173009372A3;
+					};
+					EBCE3E741D34D173009372A3 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EBCE3E501D34D173009372A3;
+					};
+				};
+			};
+			buildConfigurationList = EBCE3E4C1D34D173009372A3 /* Build configuration list for PBXProject "ArtLiveDatePicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBCE3E481D34D173009372A3;
+			productRefGroup = EBCE3E521D34D173009372A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBCE3E501D34D173009372A3 /* ArtLiveDatePicker */,
+				EBCE3E691D34D173009372A3 /* ArtLiveDatePickerTests */,
+				EBCE3E741D34D173009372A3 /* ArtLiveDatePickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBCE3E4F1D34D173009372A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBCE3E641D34D173009372A3 /* LaunchScreen.storyboard in Resources */,
+				EBCE3E611D34D173009372A3 /* Assets.xcassets in Resources */,
+				EBCE3E5F1D34D173009372A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBCE3E681D34D173009372A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBCE3E731D34D173009372A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3062C653D7BDD89776B62DF8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArtLiveDatePicker/Pods-ArtLiveDatePicker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		647BB0F65F8E7E50F218DA9F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		880AD029367A3B1988510405 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArtLiveDatePicker/Pods-ArtLiveDatePicker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBCE3E4D1D34D173009372A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBCE3E5C1D34D173009372A3 /* ViewController.m in Sources */,
+				EBCE3E8A1D34D1AE009372A3 /* ArtLiveDatePicker.m in Sources */,
+				EBCE3E591D34D173009372A3 /* AppDelegate.m in Sources */,
+				EBCE3E561D34D173009372A3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBCE3E661D34D173009372A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBCE3E6F1D34D173009372A3 /* ArtLiveDatePickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBCE3E711D34D173009372A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBCE3E7A1D34D173009372A3 /* ArtLiveDatePickerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBCE3E6C1D34D173009372A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBCE3E501D34D173009372A3 /* ArtLiveDatePicker */;
+			targetProxy = EBCE3E6B1D34D173009372A3 /* PBXContainerItemProxy */;
+		};
+		EBCE3E771D34D173009372A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBCE3E501D34D173009372A3 /* ArtLiveDatePicker */;
+			targetProxy = EBCE3E761D34D173009372A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBCE3E5D1D34D173009372A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBCE3E5E1D34D173009372A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBCE3E621D34D173009372A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBCE3E631D34D173009372A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBCE3E7C1D34D173009372A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EBCE3E7D1D34D173009372A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBCE3E7F1D34D173009372A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 091FD012A5C4DCEB4DB74E01 /* Pods-ArtLiveDatePicker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "ArtLiveDatePicker/ArtLiveDatePicker-Prefix.pch";
+				INFOPLIST_FILE = ArtLiveDatePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.msb.ArtLiveDatePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EBCE3E801D34D173009372A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 522FF513A7949C334534281A /* Pods-ArtLiveDatePicker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "ArtLiveDatePicker/ArtLiveDatePicker-Prefix.pch";
+				INFOPLIST_FILE = ArtLiveDatePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.msb.ArtLiveDatePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EBCE3E821D34D173009372A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ArtLiveDatePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.msb.ArtLiveDatePickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArtLiveDatePicker.app/ArtLiveDatePicker";
+			};
+			name = Debug;
+		};
+		EBCE3E831D34D173009372A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ArtLiveDatePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.msb.ArtLiveDatePickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArtLiveDatePicker.app/ArtLiveDatePicker";
+			};
+			name = Release;
+		};
+		EBCE3E851D34D173009372A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ArtLiveDatePickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.msb.ArtLiveDatePickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ArtLiveDatePicker;
+			};
+			name = Debug;
+		};
+		EBCE3E861D34D173009372A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ArtLiveDatePickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.msb.ArtLiveDatePickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ArtLiveDatePicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBCE3E4C1D34D173009372A3 /* Build configuration list for PBXProject "ArtLiveDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBCE3E7C1D34D173009372A3 /* Debug */,
+				EBCE3E7D1D34D173009372A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBCE3E7E1D34D173009372A3 /* Build configuration list for PBXNativeTarget "ArtLiveDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBCE3E7F1D34D173009372A3 /* Debug */,
+				EBCE3E801D34D173009372A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBCE3E811D34D173009372A3 /* Build configuration list for PBXNativeTarget "ArtLiveDatePickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBCE3E821D34D173009372A3 /* Debug */,
+				EBCE3E831D34D173009372A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBCE3E841D34D173009372A3 /* Build configuration list for PBXNativeTarget "ArtLiveDatePickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBCE3E851D34D173009372A3 /* Debug */,
+				EBCE3E861D34D173009372A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBCE3E491D34D173009372A3 /* Project object */;
+}
