@@ -40,10 +40,6 @@
     return self;
 }
 
-- (void)defaultValue
-{
-}
-
 
 - (void)currentTime
 {
