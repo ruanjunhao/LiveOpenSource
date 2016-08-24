@@ -30,6 +30,17 @@
 #### 4、点赞效果
 ![点赞](https://i.niupic.com/images/2016/07/03/lET2rN.gif)
 
-##### 5、倒计时效果
+
+=======
+#### 5、删除菜单
+![删除菜单](https://i.niupic.com/images/2016/07/29/dfDNcC.gif)
+
+#### 6、日期选择
+![日期选择](https://i.niupic.com/images/2016/07/29/gEGFII.gif)
+
+#### 7.图片选择
+![图片选择](https://i.niupic.com/images/2016/07/29/8I7Is7.gif)
+
+##### 8、倒计时效果
 ![倒计时](https://i.niupic.com/images/2016/08/24/rhTDrO.gif
 )
