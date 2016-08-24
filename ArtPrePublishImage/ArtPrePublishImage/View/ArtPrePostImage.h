@@ -13,4 +13,7 @@
 - (void)addImage:(UIImage *)aImage;
 - (void)setImages:(NSArray *)aImages;
 
+@property (nonatomic, strong) void (^removeImageBlock)(UIImage* aImage);
+@property (nonatomic, strong) void (^touchImageBlock)(UIImage* aImage);
+
 @end

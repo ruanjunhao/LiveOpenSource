@@ -51,9 +51,8 @@
     cell.textLabel.text = [NSString stringWithFormat:@"%tu",indexPath.row];
     
     UILongPressGestureRecognizer * longPressGesture = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(cellLongPress:)];
+    cell.tag = indexPath.row;
     [cell addGestureRecognizer:longPressGesture];
-    return cell;
-    
     return cell;
 }
 
@@ -69,7 +68,7 @@
 //        这里把cell做为第一响应(cell默认是无法成为responder,需要重写canBecomeFirstResponder方法)
         [cell becomeFirstResponder];
         
-        UIMenuItem *itDelete = [[UIMenuItem alloc] initWithTitle:@"删除" action:@selector(handleDeleteCell:)];
+        UIMenuItem *itDelete = [[UIMenuItem alloc] initWithTitle:@"删除" action:@selector(handleDeleteCell)];
         UIMenuController *menu = [UIMenuController sharedMenuController];
         
         menu.arrowDirection = UIMenuControllerArrowLeft;
@@ -85,9 +84,26 @@
     }
 }
 
-- (void)handleDeleteCell:(UIMenuItem *)item
+- (void)handleDeleteCell
 {
+    
+}
 
+
+- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+      [self tableView:self.tableView commitEditingStyle:UITableViewCellEditingStyleDelete forRowAtIndexPath:indexPath];
+}
+
+
+- (void)handleDeleteCell:(UITableViewCell *)cell
+{
+    [self tableView:self.tableView commitEditingStyle:UITableViewCellEditingStyleDelete forRowAtIndexPath:[NSIndexPath indexPathForRow:cell.tag inSection:0]];
 }
 
 

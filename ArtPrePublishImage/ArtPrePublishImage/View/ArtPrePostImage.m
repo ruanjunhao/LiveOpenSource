@@ -22,9 +22,6 @@ static CGFloat const kTopAndBottomMargin = 10.;
 
 @property (nonatomic,strong) UIScrollView *scrollView;
 
-@property (nonatomic, strong) void (^removeImageBlock)(UIImage* aImage);
-@property (nonatomic, strong) void (^touchImageBlock)(UIImage* aImage);
-
 @end
 
 @implementation ArtPrePostImage

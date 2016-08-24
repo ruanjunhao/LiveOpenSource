@@ -35,6 +35,10 @@
         make.centerY.equalTo(self.view.mas_centerY);
         make.height.equalTo(@100);
     }];
+    
+    self.image.removeImageBlock = ^(UIImage *image){
+        
+    };
 }
 
 - (void)viewDidLoad {

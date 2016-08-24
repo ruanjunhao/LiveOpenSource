@@ -29,3 +29,7 @@
 
 #### 4、点赞效果
 ![点赞](https://i.niupic.com/images/2016/07/03/lET2rN.gif)
+
+##### 5、倒计时效果
+![倒计时](https://i.niupic.com/images/2016/08/24/rhTDrO.gif
+)
